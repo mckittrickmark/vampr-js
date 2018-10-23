@@ -33,6 +33,9 @@ describe("Vampire", function() {
       offspring2.addOffspring(offspring8);
     });
 
+
+
+
     it("should be the root vampire for any vampire and the root vampire", () => {
       expect(rootVampire.closestCommonAncestor(offspring2).name).to.equal(rootVampire.name);
       expect(rootVampire.closestCommonAncestor(offspring7).name).to.equal(rootVampire.name);
